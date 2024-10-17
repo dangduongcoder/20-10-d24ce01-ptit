@@ -5,23 +5,39 @@ const configs = {
 
 const letters = [
     {
-        "from": "Alice",
-        "content": "Chào bạn! Mình vừa nhận được thông tin về buổi họp vào thứ Sáu. Bạn có thể tham gia không?"
+        "from": "Long Nhật",
+        "content": "Chúc Ly 20/10 vui vẻ xinh đẹp và hạnh phúc nha:3"
     },
     {
-        "from": "Bob",
-        "content": "Xin chào! Mình cần hỏi bạn về dự án mới. Bạn có thời gian không?"
+        "from": "Anh",
+        "content": "Chúc Khánh Ly 20/10 vui vẻ vui vẻ vui vẻ , luôn cười , anh em chúng tôi chuẩn bị bất ngờ cho cô rồi 😎"
     },
     {
-        "from": "Charlie",
-        "content": "Hi! Đã lâu không gặp. Bạn có muốn đi uống cà phê vào cuối tuần này không?"
+        "from": "Ẩn danh 🐲",
+        "content": "Mừng ngày phụ nữ Việt Nam!<br>Chúc chị em cứ cười vang tối ngày<br>Vui tiệc rượu, rồi cứ say<br>Mọi việc đã có tụi này lo nha!"
     },
     {
-        "from": "Diana",
-        "content": "Chào! Mình đã gửi email cho bạn về lịch trình công việc. Mong bạn xem qua nhé!"
+        "from": "Ẩn danh 🐲",
+        "content": "Chúc Ly 20/10 mãi giỏi, mãi đỉnh, có tip gì cho lớp học ké để qua môn hết nha 😁"
     },
     {
-        "from": "Eve",
-        "content": "Hello! Mình vừa xem bộ phim bạn gợi ý. Nó thật tuyệt! Cảm ơn bạn đã giới thiệu."
-    }
+        "from": "Ẩn danh 🐲",
+        "content": "Chúc Ly 20/10 mãi đỉnh, mãi giỏi và luonvuituoi nha !!"
+    },
+    {
+        "from": "Hùng Hải",
+        "content": "Chúc cậu ngày 20/10 nhiều niềm vui, sớm đạt được những nguyện vọng mong muốn và luôn vui vẻ, cởi mở với mọi người trong lớp nhe!"
+    },
+    {
+        "from": "Dương",
+        "content": "Chúc bạn 20/10 có tất cả nha"
+    },
+    {
+        "from": "Ẩn danh 🐲",
+        "content": "Chúc cậu có ngày 20/10 nhiều niềm vui nha"
+    },
+    {
+        "from": "I'm not good at English ^^",
+        "content": "Happy Vietnamese Women's Day! Wishing you always joy, happiness and success. Keep shining and chasing your dreams!"
+    },
 ]
