@@ -608,20 +608,12 @@ video {
   left: 5%;
 }
 
-.right-4 {
-  right: 1rem;
-}
-
 .top-12 {
   top: 3rem;
 }
 
 .top-20 {
   top: 5rem;
-}
-
-.top-4 {
-  top: 1rem;
 }
 
 .z-10 {
@@ -673,10 +665,6 @@ video {
   height: 3.5rem;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
 .h-full {
   height: 100%;
 }
@@ -695,10 +683,6 @@ video {
 
 .w-14 {
   width: 3.5rem;
-}
-
-.w-8 {
-  width: 2rem;
 }
 
 .w-full {
@@ -807,6 +791,14 @@ video {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'\.\/src\/images\/PTIT\.jpg\'\)\] {
+  background-image: url('./src/images/PTIT.jpg');
+}
+
+.bg-\[url\(\'\.\/images\/PTIT\.jpg\'\)\] {
+  background-image: url('./images/PTIT.jpg');
+}
+
 .from-\[\#ffecf0\] {
   --tw-gradient-from: #ffecf0 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(255 236 240 / 0) var(--tw-gradient-to-position);
@@ -895,11 +887,6 @@ video {
   color: rgb(243 119 142 / var(--tw-text-opacity));
 }
 
-.text-\[\#FFA6D7\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 166 215 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -913,24 +900,6 @@ video {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.duration-200 {
-  transition-duration: 200ms;
 }
 
 @font-face {
